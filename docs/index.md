@@ -1,17 +1,15 @@
-# Welcome to MkDocs
+---
+hide:
+  - navigation
+  - toc
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![LOGO](assets/logo.png)
 
-## Commands
+# Artificial Intelligence Standard Software
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+#### **Documentation**: <a href="https://asisai.co" target="_blank">https://asisai.co</a>
 
-## Project layout
+#### **Source Code**: <a href="https://github.com/juanpablo91/Asis" target="_blank">https://github.com/juanpablo91/Asis</a>
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[Get Started ](page1/){ .md-button .md-button--primary }

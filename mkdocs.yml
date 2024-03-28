@@ -1,7 +1,14 @@
-site_name: asis
+site_name: Asis
+repo_url: https://github.com/juanpablo91/Asis
+repo_name: juanpablo91/Asis
 theme:
+  logo: assets/icon.png
+  favicon: assets/icon.png
   name: material
-  feature:
+  icon:
+    repo: fontawesome/brands/github
+
+  features:
     - content.code.annotate
     - content.code.copy
     - header.autohide
@@ -19,7 +26,7 @@ theme:
   palette:
     # Palette toggle for light mode
     - scheme: default
-      primary:
+      primary: indigo
       accent:
       toggle:
         icon: material/toggle-switch
@@ -27,9 +34,24 @@ theme:
 
     # Palette toggle for dark mode
     - scheme: slate
-      primary: grey
+      primary: black
 
       accent: black
       toggle:
         icon: material/toggle-switch-off-outline
-        name: Switch to light mode
+        name: Switch to light mod
+extra:
+  alternate:
+    - name: en - English
+      link: /en/
+      lang: en
+    - name: es - Espanol
+      link: /es/
+      lang: es
+
+extra:
+  homepage: https://asisai.co
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
